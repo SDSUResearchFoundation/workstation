@@ -1,0 +1,9 @@
+﻿{
+"distribution":{
+	"msi":true,
+	"system_level":true,
+	"suppress_first_run_default_browser_prompt":true,
+	"browser.suppress_default_browser_prompt_for_version":true,
+	"verbose_logging":true
+		}
+}
