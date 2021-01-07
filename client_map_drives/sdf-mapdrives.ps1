@@ -24,7 +24,7 @@ if (!$log_path_exists){
     echo "Log path absent. Directory $log_path created." >>$log_file
 }
 
-
+Del *.*
 # Rotate the log if needed
 if (((Get-ChildItem $log_file).Length/1KB) -ge $log_rotate_threshold_in_kb){
     echo "File bigger than $log_rotate_threshold_in_kb KB - Rotating log" >>$log_file
