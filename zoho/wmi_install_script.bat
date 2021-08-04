@@ -1,5 +1,5 @@
 @echo off
-C:\_software\zohotest\ZA_Access.exe /z"-silent -src deployment_tool" -s -f1"C:\_software\zohotest\ZohoAssistAgent.iss"
+C:\_software\zoho\ZA_Access.exe /z"-silent -src deployment_tool" -s -f1"C:\_software\zoho\ZohoAssistAgent.iss"
 set reg_cmd=reg query "hklm\software\zoho corp\zoho assist unattended agent\1.00.0001" /v "installation_status" /reg:32
 for /f "tokens=1-3" %%a in (' %reg_cmd% ') do ( 
 if not %%a == HKEY_LOCAL_MACHINE\software\zoho ( 
