@@ -1,0 +1,30 @@
+<config>
+	<panel>
+		<name>AppsPanel</name>
+		<visible>true</visible>
+	</panel>
+	<panel>
+		<name>FilesPanel</name>
+		<masked>true</masked>
+	</panel>
+	<panel>
+		<name>MarketPanel</name>
+		<masked>true</masked>
+	</panel>
+	<feature>
+		<name>SelfServeInstalls</name>
+		<enabled>true</enabled>
+	</feature>
+	<feature>
+		<name>BrowserBasedAuthentication</name>
+		<enabled>true</enabled>
+	</feature>
+	<feature>
+		<name>SelfServePluginsInstall</name>
+		<enabled>true</enabled>
+	</feature>
+	<feature>
+		<name>AppsAutoUpdate</name>
+		<enabled>true</enabled>
+	</feature>
+</config>
