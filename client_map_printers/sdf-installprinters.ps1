@@ -1,4 +1,4 @@
-﻿$printersList = "\\sdf-printers.id.sdsu.edu\3526D-Copier","\\sdf-printers.id.sdsu.edu\3519-M603","\\sdf-printers.id.sdsu.edu\3501-Copier"
+﻿$printersList = "\\sdf-printers.id.sdsu.edu\3526D-Copier","\\sdf-printers.id.sdsu.edu\3519-M605","\\sdf-printers.id.sdsu.edu\3501-Copier"
 $printersMapped = Get-Printer
 foreach ($printer in $printersList)
 {
